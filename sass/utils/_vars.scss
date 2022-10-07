@@ -1,0 +1,74 @@
+:root {
+   --item-tx-color: #212121;
+   --item-bg-color: #ffffff;
+   --item-btn-color: #2196f3;
+   --item-prim-color: #757575;
+   --item-company-color: #afb1b8;
+
+   --overlay-color: rgba(33, 150, 243, 0.9);
+   --overlay-bg-color: rgba(47, 48, 58, 0.8);
+
+   --timing--function: 250ms cubic-bezier(04, 0, 0.2, 1);
+}
+
+body {
+   font-family: 'Roboto', 'sans-serif';
+   font-size: 14px;
+   letter-spacing: 0.03em;
+   background-color: var(--item-bg-color);
+}
+
+/*
+  |============================
+  | Reset
+  |============================
+*/
+
+h1,
+h2,
+h3,
+ul,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: currentColor;
+}
+
+ul {
+   list-style: none;
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.hide-title {
+   visibility: hidden;
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
+}
+
+.container {
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}

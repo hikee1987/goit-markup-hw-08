@@ -1,0 +1,52 @@
+//  header
+.header {
+   border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+   display: flex;
+}
+
+/*
+  |============================
+  | Header contact
+  |============================
+*/
+
+.navi__contact-list {
+   display: flex;
+   gap: 50px;
+}
+
+.navi__contact-item {
+   color: var(--item-prim-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   padding-top: 32px;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+      color: var(--item-btn-color);
+   }
+}
+
+.navi__contact-link {
+   display: flex;
+   align-items: center;
+   padding-bottom: 32px;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   .navi__contact-link:hover &,
+   .navi__contact-link:focus & {
+      fill: var(--item-btn-color);
+   }
+}
+
+.navi__contact-icon {
+   margin-right: 10px;
+   fill: currentColor;
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
