@@ -5,7 +5,8 @@
    &__button {
       margin-left: auto;
       background-color: transparent;
-      
+      border: none;
+
       @media screen and (min-width: 768px) {
          display: none;
       }
@@ -15,6 +16,16 @@
 .header__container {
    display: flex;
    align-items: center;
+   max-width: 450px;
+   padding: 0 15px;
+   margin: auto;
+
+   @media screen and (min-width: 768px) {
+      max-width: 768px;
+   }
+   @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+   }
 }
 
 /*

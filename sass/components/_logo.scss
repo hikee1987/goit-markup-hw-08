@@ -7,12 +7,17 @@
    line-height: 1.2;
    letter-spacing: 0.03em;
    color: var(--item-btn-color);
-   display: block;
-   padding-top: 24px;
-   margin-right: 93px;
+   padding: 16px 0;
 
    @media screen and (min-width: 768px) {
       padding: 0;
+   }
+
+   @media screen and (min-width: 1200px) {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
    }
 }
 

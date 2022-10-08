@@ -454,6 +454,47 @@
                </ul>
             </div>
          </section>
+         <!-- Mobile menu -->
+         <div class="menu js-menu-container">
+            <button class="menu__button js-close-menu">
+               <svg class="menu__icon" width="40" height="40">
+                  <use href="./images/icons.svg#close-burger"></use>
+               </svg>
+            </button>
+            <nav class="nav menu__nav">
+               <ul class="menu-nav__list-menu">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link menu-nav__link--active menu-nav__link"
+                        >Студія</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a href="portfolio.html" class="nav__link menu-nav__link">Портфоліо</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contacts" class="nav__link menu-nav__link">Контакти</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="menu__wrapper">
+               <ul class="contacts">
+                  <li class="contacts__item">
+                     <a href="tel:+380961111111" class="contacts__link"> +38 096 111 11 11</a>
+                  </li>
+                  <li class="contacts__item">
+                     <a href="mailto:info@devstudio.com" class="contacts__link">
+                        info@devstudio.com</a
+                     >
+                  </li>
+               </ul>
+               <ul class="menu__list">
+                  <li class="menu__item"><a href="" class="menu__link">Instagram</a></li>
+                  <li class="menu__item"><a href="" class="menu__link">Twitter</a></li>
+                  <li class="menu__item"><a href="" class="menu__link">Facebook</a></li>
+                  <li class="menu__item"><a href="" class="menu__link">LinkedIn</a></li>
+               </ul>
+            </div>
+         </div>
       </main>
       <!-- Footer -->
       <!-- <footer class="footer">
@@ -635,6 +676,13 @@
             </form>
          </div>
       </div>
+      <script
+         defer
+         src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+         crossorigin="anonymous"
+      ></script>
+      <script defer src="js/mobile-menu.js"></script>
       <script src="./js/modal.js"></script>
    </body>
 </html>
