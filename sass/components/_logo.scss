@@ -35,9 +35,20 @@
    line-height: 1.19;
    letter-spacing: 0.03em;
    color: var(--item-bg-color);
+
    display: block;
    margin-bottom: 20px;
    margin-right: 0;
+
+   @media screen and (min-width: 768px) {
+      padding-top: 24px;
+      padding-bottom: 25px;
+   }
+
+   @media screen and (min-width: 1200px) {
+      font-size: 26px;
+      line-height: 31 / 26;
+   }
 }
 
 .footer__logo-white {
