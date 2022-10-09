@@ -11,6 +11,8 @@
          rel="stylesheet"
       />
       <title>Portfolio</title>
+      <!-- AOS animate css -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <link rel="stylesheet" href="./css/normalize.css" />
       <link rel="stylesheet" href="./css/main.min.css" />
       <!-- <link rel="stylesheet" href="./css/style.css" /> -->
@@ -78,7 +80,7 @@
                   <li><button type="button" class="button__item">Дизайн</button></li>
                   <li><button type="button" class="button__item">Маркетинг</button></li>
                </ul>
-               <ul class="card__sets-list">
+               <ul class="card__sets-list" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                   <li class="card__item">
                      <a class="card__link" href="">
                         <div class="card__thumb">
@@ -671,5 +673,7 @@
          crossorigin="anonymous"
       ></script>
       <script defer src="js/mobile-menu.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./js/aos-animate.js"></script>
    </body>
 </html>

@@ -11,6 +11,9 @@
          rel="stylesheet"
       />
       <title>Studio</title>
+      <!-- AOS animate css -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <!-- Normalazi css -->
       <link rel="stylesheet" href="./css/normalize.css" />
       <link rel="stylesheet" href="./css/main.min.css" />
       <!-- <link rel="stylesheet" href="./css/style.css" /> -->
@@ -71,8 +74,7 @@
             <section class="hero">
                <div class="container">
                   <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-                  <button class="hero__button" type="button" data-modal-open
-                     >Замовити послугу</button
+                  <button class="hero__button" type="button" data-modal-open>Замовити послугу</button
                   >
                </div>
             </section>
@@ -114,7 +116,7 @@
          <section class="project section">
             <div class="container">
                <h2 class="project__title">Чим ми займаємося</h2>
-               <ul class="project__list">
+               <ul class="project__list" data-aos="fade-down" data-aos-duration="2000">
                   <li class="project__item">
                      <div class="project__thumb">
                         <img src="./images/box1.jpg" alt="Community" width="370" height="294" />
@@ -146,7 +148,7 @@
          <section class="team section">
             <div class="container">
                <h2 class="team__title">Наша команда</h2>
-               <ul class="team__list">
+               <ul class="team__list" data-aos="fade-right" data-aos-duration="3000">
                   <li class="team__card">
                      <img
                         class="team__photo"
@@ -402,7 +404,7 @@
          <section class="section">
             <div class="container">
                <h2 class="project__title">Постійні клієнти</h2>
-               <ul class="company__list">
+               <ul class="company__list" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                   <li class="company__item">
                      <a class="company__link" href="" target="_blank" aria-label="YA&CO">
                         <svg class="company__icon" width="106" height="60">
@@ -700,5 +702,7 @@
       ></script>
       <script defer src="js/mobile-menu.js"></script>
       <script src="./js/modal.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./js/aos-animate.js"></script>
    </body>
 </html>
