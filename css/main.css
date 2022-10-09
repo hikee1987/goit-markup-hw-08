@@ -515,9 +515,21 @@ img {
 }
 
 .card__item {
-  -ms-flex-preferred-size: calc((100% - 60px) / 3);
-      flex-basis: calc((100% - 60px) / 3);
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   border: 1px solid #eeeeee;
+}
+@media screen and (min-width: 768px) {
+  .card__item {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
+  }
 }
 
 .card__item:hover .card__overlay {
