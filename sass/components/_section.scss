@@ -150,20 +150,16 @@
 }
 
 .card__item {
-
    flex-basis: 100%;
    border: 1px solid #eeeeee;
 
    @media screen and (min-width: 768px) {
-   flex-basis: calc((100% - 30px) / 2);
-
+      flex-basis: calc((100% - 30px) / 2);
    }
 
-      @media screen and (min-width: 1200px) {
-   flex-basis: calc((100% - 30px * 2) / 3);
-
+   @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 30px * 2) / 3);
    }
-
 }
 
 .card__item:hover .card__overlay {
@@ -336,12 +332,17 @@
 
 .project__title {
    font-weight: 700;
-   font-size: 36px;
+   font-size: 28px;
    line-height: 1.2;
    letter-spacing: 0.03em;
    text-align: center;
    color: var(--item-tx-color);
    margin-bottom: 30px;
+
+   @media screen and (min-width: 1200px) {
+      font-size: 36px;
+      margin-bottom: 50px;
+   }
 }
 
 .project__list {
@@ -391,12 +392,16 @@
 .team__title {
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
-   line-height: 1.16;
-   letter-spacing: 0.06em;
+   font-size: 28px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
    text-align: center;
    color: var(--item-tx-color);
    margin-bottom: 30px;
+
+   @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+   }
 }
 
 .team__list {

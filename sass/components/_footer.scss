@@ -89,7 +89,7 @@
 .address__link-map {
    text-decoration: none;
    font-style: normal;
-   font-weight: normal;
+   font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
@@ -107,9 +107,9 @@
 .address__item {
    text-decoration: none;
    display: block;
-   color: var(--item-prim-color);
+   color: var(--item-bgc-footer);
    font-style: normal;
-   font-weight: normal;
+   font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
@@ -148,6 +148,10 @@
    text-transform: uppercase;
    color: var(--item-bg-color);
    margin-bottom: 20px;
+
+   @media screen and (min-width: 1200px) {
+      text-align: left;
+   }
 }
 
 .footer__socials-list {
@@ -218,10 +222,13 @@
 
    color: var(--item-bg-color);
    margin-bottom: 20px;
+
+   @media screen and (min-width: 1200px) {
+      text-align: left;
+   }
 }
 
 .footer__subscribe_wrap {
-   
    @media screen and (min-width: 1200px) {
       display: flex;
       gap: 12px;
@@ -242,13 +249,22 @@
 }
 
 .footer__subscribe-input {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.2px;
+   letter-spacing: 0.03em;
+
    width: 358px;
    height: 50px;
+
    padding: 15px;
-   color: var(--item-bg-color);
+
+   color: var(--item-bgc-footer);
+
    background-color: #2f303a;
    border: 1px solid rgba(255, 255, 255, 0.3);
    border-radius: 4px;
+
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
