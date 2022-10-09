@@ -141,12 +141,6 @@ img {
   margin-bottom: 20px;
   margin-right: 0;
 }
-@media screen and (min-width: 768px) {
-  .footer__logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer__logo {
     font-size: 26px;
@@ -370,40 +364,40 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 118px 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/background/hero/hero_s_@1x.webp");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/hero/hero_s_@1x.webp");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/hero/hero_s_@1x.webp");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/hero/hero_s_@1x.webp");
   max-width: 1600px;
   margin: auto;
   position: relative;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/background/hero/hero_s_@2x.webp");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/hero/hero_s_@2x.webp");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/hero/hero_s_@2x.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/hero/hero_s_@2x.webp");
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/background/hero/hero_m_@1x.webp");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/hero/hero_m_@1x.webp");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/hero/hero_m_@1x.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/hero/hero_m_@1x.webp");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/background/hero/hero_m_@2x.webp");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/hero/hero_m_@2x.webp");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/hero/hero_m_@2x.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/hero/hero_m_@2x.webp");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/background/hero/hero_l_@1x.webp");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/hero/hero_l_@1x.webp");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/hero/hero_l_@1x.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/hero/hero_l_@1x.webp");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/background/hero/hero_l_@2x.webp");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/hero/hero_l_@2x.webp");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/hero/hero_l_@2x.webp");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/hero/hero_l_@2x.webp");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -956,9 +950,6 @@ img {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -974,7 +965,7 @@ img {
           justify-content: center;
 }
 @media screen and (min-width: 768px) {
-  .footer__wrap {
+  .footer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -987,6 +978,68 @@ img {
   }
 }
 
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer__wrap {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.footer__address_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer__address_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 165px;
+    margin: auto;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__address_wrap {
+    margin: 0;
+    gap: 70px;
+  }
+}
+
 /*
   |============================
   | Footer address
@@ -995,7 +1048,6 @@ img {
 .footer__address {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -1006,7 +1058,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer__address {
-    margin-right: 70px;
     margin-bottom: 0;
     text-align: left;
   }
@@ -1073,7 +1124,6 @@ img {
 .footer__socials {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -1146,10 +1196,14 @@ img {
   |============================
 */
 .footer__subscribe {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer__subscribe {
+    margin-left: auto;
+  }
 }
 
 .footer__subscribe-text {
@@ -1163,10 +1217,18 @@ img {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__subscribe_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+  }
+}
+
 .footer__subscribe-label {
   display: inline-block;
   margin-bottom: 20px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1175,12 +1237,11 @@ img {
   .footer__subscribe-label {
     text-align: left;
     margin-right: 0;
-    width: 574px;
   }
 }
 
 .footer__subscribe-input {
-  width: 450px;
+  width: 358px;
   height: 50px;
   padding: 15px;
   color: var(--item-bg-color);
@@ -1222,9 +1283,10 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer__subscribe-btn {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
     padding: 10px 28px;
   }
 }
@@ -1606,10 +1668,10 @@ img {
 }
 .menu__button {
   background-color: transparent;
-  width: 40px;
   position: absolute;
   top: 10px;
   right: 15px;
+  border: none;
 }
 .menu__wrapper {
   display: -webkit-box;
