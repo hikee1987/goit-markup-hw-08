@@ -687,6 +687,11 @@ img {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
+@media (min-width: 480px) and (max-width: 1199px) {
+  .footer__subscribe-input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__subscribe-input {
     width: 358px;
