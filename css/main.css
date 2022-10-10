@@ -678,6 +678,7 @@ img {
   line-height: 1.2px;
   letter-spacing: 0.03em;
   height: 50px;
+  width: 100%;
   padding: 15px;
   color: var(--item-bgc-footer);
   background-color: #2f303a;
@@ -685,6 +686,11 @@ img {
   border-radius: 4px;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+@media screen and (min-width: 1200px) {
+  .footer__subscribe-input {
+    width: 358px;
+  }
 }
 
 .footer__subscribe-btn {

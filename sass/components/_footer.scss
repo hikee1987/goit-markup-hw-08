@@ -256,6 +256,7 @@
 
    height: 50px;
 
+   width: 100%;
    padding: 15px;
 
    color: var(--item-bgc-footer);
@@ -265,6 +266,10 @@
    border-radius: 4px;
 
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+   @media screen and (min-width: 1200px) {
+      width: 358px;
+   }
 }
 
 .footer__subscribe-btn {
